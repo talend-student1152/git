@@ -65,6 +65,11 @@
     "version" : "7.0.1",
     "status" : "noimpact"
   }, {
+    "id" : "org.talend.camel.designer.migration.AddBeansDefaultLibrariesMigrationTask.7.3.1",
+    "breaks" : "7.3.0",
+    "version" : "7.3.1",
+    "status" : "noimpact"
+  }, {
     "id" : "org.talend.camel.designer.migration.AddSpringConfigurationPropertyMigrationTask",
     "breaks" : "5.4.1",
     "version" : "5.6.1",
@@ -148,6 +153,10 @@
     "id" : "org.talend.datacleansing.core.migration.UpdateTPatternParamTask",
     "breaks" : "6.4.0",
     "version" : "6.4.0",
+    "status" : "noimpact"
+  }, {
+    "id" : "org.talend.datacleansing.core.migration.UpdateTStandadizePhoneNumberTask",
+    "version" : "7.3.1",
     "status" : "noimpact"
   }, {
     "id" : "org.talend.datacleansing.core.migration.UpdateTmatchGroupComputeGrpQualityParamTask",
@@ -270,6 +279,11 @@
     "version" : "5.6.0",
     "status" : "noimpact"
   }, {
+    "id" : "org.talend.designer.dbmap.migration.DbOperatorMigrationTask",
+    "breaks" : "7.3.0",
+    "version" : "7.3.1",
+    "status" : "noimpact"
+  }, {
     "id" : "org.talend.designer.dbmap.migration.ELTMapSaveToEmfMigrationTask",
     "breaks" : "5.1.1",
     "version" : "5.1.2",
@@ -318,6 +332,21 @@
     "id" : "org.talend.designer.mapreduce.repository.migration.AddDefaultVersionValueToElasticsearchComponentMigrationTask",
     "breaks" : "7.1.0",
     "version" : "7.1.0",
+    "status" : "noimpact"
+  }, {
+    "id" : "org.talend.designer.mapreduce.repository.migration.AddEMRFSMetadataTableNameToS3ConfigurationMigrationTask",
+    "breaks" : "7.2.1",
+    "version" : "7.3.0",
+    "status" : "noimpact"
+  }, {
+    "id" : "org.talend.designer.mapreduce.repository.migration.AddInTransitEncryptionCheckboxToS3ConfigurationMigrationTask",
+    "breaks" : "7.2.1",
+    "version" : "7.3.0",
+    "status" : "noimpact"
+  }, {
+    "id" : "org.talend.designer.mapreduce.repository.migration.AddKMSKeyIdToS3ConfigurationMigrationTask",
+    "breaks" : "7.2.1",
+    "version" : "7.3.0",
     "status" : "noimpact"
   }, {
     "id" : "org.talend.designer.mapreduce.repository.migration.AddOptionSplitableToImportHdfsFileMigrationTask",
@@ -910,6 +939,11 @@
     "version" : "5.1.2",
     "status" : "noimpact"
   }, {
+    "id" : "org.talend.repository.model.migration.BigQuerySetDefaultAuthTypeForGSMigrationTask",
+    "breaks" : "7.3.0",
+    "version" : "7.3.1",
+    "status" : "noimpact"
+  }, {
     "id" : "org.talend.repository.model.migration.BuildRecycleBinIndexMigrationTask",
     "breaks" : "6.0.0",
     "version" : "6.0.1",
@@ -970,9 +1004,19 @@
     "version" : "6.4.0",
     "status" : "noimpact"
   }, {
+    "id" : "org.talend.repository.model.migration.ChangeDefaultDriverForMSSqlMigrationTask",
+    "breaks" : "7.3.0",
+    "version" : "7.3.1",
+    "status" : "noimpact"
+  }, {
     "id" : "org.talend.repository.model.migration.ChangeDefaultEncodingMigrationTask",
     "breaks" : "5.2.3",
     "version" : "5.2.4",
+    "status" : "noimpact"
+  }, {
+    "id" : "org.talend.repository.model.migration.ChangeDefaultLoadMethod4tSynapseBulkExec",
+    "breaks" : "7.3.0",
+    "version" : "7.3.1",
     "status" : "noimpact"
   }, {
     "id" : "org.talend.repository.model.migration.ChangeDefaultSparkSerializer",
@@ -1103,6 +1147,11 @@
     "id" : "org.talend.repository.model.migration.ChangeLogLevel4tRedshiftInput",
     "breaks" : "6.2.0",
     "version" : "6.2.0",
+    "status" : "noimpact"
+  }, {
+    "id" : "org.talend.repository.model.migration.ChangeMSSQLDBDefaultVersionMigrationTask",
+    "breaks" : "7.3.0",
+    "version" : "7.3.1",
     "status" : "noimpact"
   }, {
     "id" : "org.talend.repository.model.migration.ChangeMSSQLDBVersionMigrationTask",
@@ -1285,6 +1334,11 @@
     "version" : "5.1.2",
     "status" : "noimpact"
   }, {
+    "id" : "org.talend.repository.model.migration.CheckAzureBlobStorageKeepRemoteDirJavajetToTCOMPv0",
+    "breaks" : "6.4.0",
+    "version" : "7.3.1",
+    "status" : "noimpact"
+  }, {
     "id" : "org.talend.repository.model.migration.CheckIncludeSeparatorOnTFileOutputPositional",
     "breaks" : "5.6.2",
     "version" : "5.6.3",
@@ -1359,6 +1413,11 @@
     "version" : "5.6.0",
     "status" : "noimpact"
   }, {
+    "id" : "org.talend.repository.model.migration.CreateContextLinkMigrationTask",
+    "breaks" : "7.3.0",
+    "version" : "7.3.1",
+    "status" : "noimpact"
+  }, {
     "id" : "org.talend.repository.model.migration.DecrementLimitTFileInputDelimitedTDI32185",
     "breaks" : "7.2.0",
     "version" : "7.2.1",
@@ -1372,6 +1431,11 @@
     "id" : "org.talend.repository.model.migration.DisableUseBatchWhenRejectLineExists",
     "breaks" : "6.0.0",
     "version" : "6.1.0",
+    "status" : "noimpact"
+  }, {
+    "id" : "org.talend.repository.model.migration.EnabletPersonatorAddressBasicSettingTask",
+    "breaks" : "7.3.0",
+    "version" : "7.3.1",
     "status" : "noimpact"
   }, {
     "id" : "org.talend.repository.model.migration.EncryptDbPasswordMigrationTask",
@@ -1424,6 +1488,11 @@
     "version" : "5.1.2",
     "status" : "noimpact"
   }, {
+    "id" : "org.talend.repository.model.migration.FixProjectResourceLink",
+    "breaks" : "5.1.1",
+    "version" : "5.1.2",
+    "status" : "noimpact"
+  }, {
     "id" : "org.talend.repository.model.migration.FixUnevenItemContextParametersMigrationTask",
     "breaks" : "6.1.0",
     "version" : "6.4.0",
@@ -1432,6 +1501,16 @@
     "id" : "org.talend.repository.model.migration.FixWrongDbTypesMigrationTask",
     "breaks" : "5.1.9",
     "version" : "5.1.2",
+    "status" : "noimpact"
+  }, {
+    "id" : "org.talend.repository.model.migration.GenerateJobPomMigrationTask",
+    "breaks" : "7.0.1",
+    "version" : "7.0.1",
+    "status" : "noimpact"
+  }, {
+    "id" : "org.talend.repository.model.migration.GoogleStorageSetDefaultAuthTypeMigrationTask",
+    "breaks" : "7.3.0",
+    "version" : "7.3.1",
     "status" : "noimpact"
   }, {
     "id" : "org.talend.repository.model.migration.HandleOracleSchemaMigrationTask",
@@ -1658,6 +1737,11 @@
     "version" : "7.1.1",
     "status" : "noimpact"
   }, {
+    "id" : "org.talend.repository.model.migration.RenameEXAMigrationTask",
+    "breaks" : "7.3.0",
+    "version" : "7.3.1",
+    "status" : "noimpact"
+  }, {
     "id" : "org.talend.repository.model.migration.RenameModeParaForPigMigrationTask",
     "breaks" : "5.1.1",
     "version" : "5.1.2",
@@ -1676,6 +1760,11 @@
     "id" : "org.talend.repository.model.migration.RenamePasswordParaForLdapMigrationTask",
     "breaks" : "5.1.1",
     "version" : "5.1.2",
+    "status" : "noimpact"
+  }, {
+    "id" : "org.talend.repository.model.migration.RenameSQLDWHMigrationTask",
+    "breaks" : "7.3.0",
+    "version" : "7.3.1",
     "status" : "noimpact"
   }, {
     "id" : "org.talend.repository.model.migration.RenameSalesforceWaveMigrationTask",
@@ -1867,6 +1956,11 @@
     "version" : "5.1.2",
     "status" : "noimpact"
   }, {
+    "id" : "org.talend.repository.model.migration.SetDefaultPartSizeForTGSPutMigrationTask",
+    "breaks" : "7.3.0",
+    "version" : "7.3.1",
+    "status" : "noimpact"
+  }, {
     "id" : "org.talend.repository.model.migration.SetDefaultValue4tWriteJSONFieldGroupByOutput",
     "breaks" : "5.6.0",
     "version" : "5.6.0",
@@ -1950,6 +2044,11 @@
     "id" : "org.talend.repository.model.migration.TExtractJSONSplitListMigrationTask",
     "breaks" : "7.0.1",
     "version" : "7.0.1",
+    "status" : "noimpact"
+  }, {
+    "id" : "org.talend.repository.model.migration.TeradataTPTAddDatabaseNameToOptionalTablesMigrationTask",
+    "breaks" : "7.3.0",
+    "version" : "7.3.1",
     "status" : "noimpact"
   }, {
     "id" : "org.talend.repository.model.migration.ThreeVersionstJavaFlexForBug11754",
@@ -2165,12 +2264,22 @@
     "version" : "6.1.0",
     "status" : "noimpact"
   }, {
+    "id" : "org.talend.repository.model.migration.spark.SetGlobalTimestampOptionForPreviousVersions",
+    "breaks" : "7.2.0",
+    "version" : "7.2.1",
+    "status" : "noimpact"
+  }, {
     "id" : "org.talend.repository.model.migration.spark.StripslachesOnQuotesForTCollectAndCheck",
     "breaks" : "6.1.0",
     "version" : "6.1.0",
     "status" : "noimpact"
   }, {
     "id" : "org.talend.repository.model.migration.spark.UpdateDatesPatternAccordingToDeletedTimestampOption",
+    "breaks" : "7.3.0",
+    "version" : "7.3.1",
+    "status" : "noimpact"
+  }, {
+    "id" : "org.talend.repository.model.migration.spark.UpdateSeparatorAndEscapeForDatasetAPI",
     "breaks" : "7.3.0",
     "version" : "7.3.1",
     "status" : "noimpact"
